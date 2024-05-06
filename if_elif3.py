@@ -9,20 +9,24 @@ print("-"*50)
 
 choise = int(input("enter your choise : "))
 
+if choise==1 or choise==2 or choise==3 or choise==4:
+      a=int(input("enter number1 : "))
+      b=int(input("enter number2 : "))
+
 if choise==1:
-      print("addition")
+      print("addition : ",a+b)
       
 elif choise==2:
-      print("substraction")
+      print("substraction : ",a-b)
       
 elif choise==3:
-      print("multiplication")
+      print("multiplication : ",a*b)
       
 # else:
 #       print("division")
 
 elif choise==4:
-      print("division")
+      print("division : ",a/b)
       
 else:
       print("invallid input")
