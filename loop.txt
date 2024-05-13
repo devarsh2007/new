@@ -1,0 +1,11 @@
+when some code repeate more then one time so we use the loop
+
+type 2
+
+1) while loop
+
+while condition:
+      code
+
+
+2) for loop
