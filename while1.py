@@ -2,7 +2,9 @@
 
 number = 0
 
-while number<10:
+count = int(input("enter a number : "))
+
+while number<count:
       number=number+1
       print(number)
 
