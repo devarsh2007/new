@@ -13,7 +13,6 @@ while last>=0:
       print(a[last])
       name.add(a[last])
       l1.append(a[last])
-      
       t1.append(a[last])
 
       last-=1
