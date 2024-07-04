@@ -25,10 +25,10 @@ pdf.set_text_color(*rgb_color)
 
 # Table data (example)
 data = [
-    ["sr no.", "product Name", "price", "contity"],
-    ["1", "Alice", "1000", "2"],
-    ["2", "Bob", "320", "3"],
-    ["3", "Charlie", "353", "5"]
+    ["product Name", "price", "contity"],
+    ["Alice", "1000", "2"],
+    ["Bob", "320", "3"],
+    ["Charlie", "353", "5"]
 ]
 
 # Set column width (arbitrary for this example)
