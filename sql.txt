@@ -1,0 +1,26 @@
+create a table
+create table table_name(
+      id int autoincriment primary key,
+      name varchar(50),
+      ....
+)
+
+delete table
+drop table table_name;
+
+-------------------------------------------
+insert , update , delete , select
+-------------------------------------------------
+
+insert
+--------------------------------------------------
+insert into table_name values(...)
+
+select
+-------------------------------------------------------
+select *|field_name  from table_name
+
+* refers to all fiels
+
+SELECT * FROM student
+SELECT name FROM student
