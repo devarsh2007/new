@@ -1,15 +1,13 @@
-
-      
 try:
-      p = int(input("enter amount : "))
-      r = int(input("enter rate : "))
-      t = int(input("enter time in years : "))
+    a=int(input("enter number1 : "))
+    b=int(input("enter number2 : "))
+    
+except Exception as e:
+    print("some error ocured...")
+    print(e)
 
-      ans = (p*r*t) / 100
+else:
+    ans = a+b
+    print(ans)
 
-      print(ans)
-      
-except:
-      print("you got an error")
-      
-print("this is some important code")
+print("hello world....")

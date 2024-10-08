@@ -1,7 +1,0 @@
-1) write a program that print * for 100 times
-
-2) write a program that print number1 given by use to number2 given by user
-
-number1 = 20
-number2 = 100
-20 to 100 numbers

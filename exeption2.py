@@ -1,16 +1,15 @@
-
 try:
-      file = open("demo4.txt","r")
+    a=int(input("enter element : "))
+    b=int(input("enter element : "))
+    c=int(input("enter element : "))
 
-      a=file.read()
-      print(a)
+    numbers = [a,b,c]
 
-      file2 = open("demo2.txt","w")
-      file2.write(a)
-      print("text added....")
-
-      file.close()
-      file2.close()
-      
-except:
-      print("error : some error ocured")
+    for i in range(0,5):
+        print(numbers[i])
+        
+except(IndexError):
+    print("error")
+    
+finally:
+    print("program end...")
