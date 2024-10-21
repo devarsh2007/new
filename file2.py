@@ -12,5 +12,7 @@ print(text2)
 file2.close()
 
 new = open('demo.txt','w')
-new.write('welcome')
+new.write('new data ')
+new.write('\nnew data 2')
+print("data witten on file")
 new.close()
