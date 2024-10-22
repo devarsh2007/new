@@ -2,7 +2,8 @@
 # it import all code in module 1 file
 # module1.hello()
 
-# from module1 import calculator,hello
+# from module1 import hello,calc
+# hello()
 from module1 import *
 
 a=int(input("enter num1 : "))
